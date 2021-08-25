@@ -47,6 +47,12 @@ input[type=text],input[type=email],input[type=number]
 	border: 2px solid mediumpurple;
 	box-shadow:inset 2px 1px 4px orangered;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+ {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 textarea {
     width: 100%;
